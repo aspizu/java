@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font: normal normal normal 12px Inter;
+}
+
+.box {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.col > * {
+  flex-grow: 1;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  column-gap: 4px;
+  row-gap: 4px;
+}
+
+.mrg-1 {
+  margin: 4px;
+}
+
+.pad-1 {
+  padding: 4px;
+}
+
+.gap-2 {
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+.mrg-2 {
+  margin: 8px;
+}
+
+.pad-2 {
+  padding: 8px;
+}
+
+.gap-3 {
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.mrg-3 {
+  margin: 16px;
+}
+
+.pad-3 {
+  padding: 16px;
+}
+
+button {
+  color: #3c3c3c;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  padding: 8px 12px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1),
+    inset 0px -16px 32px 0px rgba(0, 0, 0, 0.07),
+    inset 0px 0px 0px 1px rgba(255, 255, 255, 0.5);
+}
+
+button.normal {
+  background: #f5f5f5;
+}
+
+button.normal:hover {
+  background: #dadada;
+}
+
+button.normal:active {
+  background: #bebebe;
+}
+
+button.secondary {
+  background: #ffa86e;
+}
+
+button.secondary:hover {
+  background: #ff9752;
+}
+
+button.secondary:active {
+  background: #f68b44;
+}
+
+button.primary {
+  background: #6ed3ff;
+}
+
+button.primary:hover {
+  background: #67c3ea;
+}
+
+button.primary:active {
+  background: #5db1d6;
+}
+
+input.normal {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  padding: 8px 12px;
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+input:focus {
+  outline: none;
+}
+
+.surface {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1),
+    inset 0px -16px 32px 0px rgba(0, 0, 0, 0.07);
+}
